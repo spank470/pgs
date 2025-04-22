@@ -13,12 +13,14 @@ jobs:
   ui_test:
     runs-on: [self-hosted, windows, x64, test]  # Запуск на self-hosted runnert
 
+    steps:
+ 
       - name: Check the environment
         run: |
           echo "RUNNER_OS: $RUNNER_OS"
           echo "RUNNER_LABELS: $RUNNER_LABELS"
 
-    steps:
+      
       - name: Checkout code
         uses: actions/checkout@v3
 
