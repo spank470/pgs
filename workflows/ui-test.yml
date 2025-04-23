@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   ui_test:
-    runs-on: [self-hosted, windows, x64]  # Запуск на self-hosted runnert
+    runs-on: [self-hosted, windows, X64]  # Запуск на self-hosted runnert
 
     steps:
       
