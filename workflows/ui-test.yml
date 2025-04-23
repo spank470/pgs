@@ -9,6 +9,7 @@ on:
 permissions:
   contents: read
 
+
 jobs:
   ui_test:
     runs-on: [self-hosted, windows, X64]  # Запуск на self-hosted runnert
