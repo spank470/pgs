@@ -9,7 +9,6 @@ on:
 permissions:
   contents: read
 
-
 jobs:
   ui_test:
     runs-on: [self-hosted, windows, X64]  # Запуск на self-hosted runnert
@@ -40,8 +39,7 @@ jobs:
           allure_results: allure-results
           allure_report: allure-report
           keep_reports: true
-          
-
+        
       - name: Deploy Allure report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
