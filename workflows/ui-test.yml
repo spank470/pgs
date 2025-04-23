@@ -40,6 +40,8 @@ jobs:
           allure_report: allure-report
           keep_reports: true
         
+
+
         
       - name: Deploy Allure report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
